@@ -1,0 +1,47 @@
+@keyframes gl1 {
+  0%, 88%, 100% { clip-path: inset(0 0 100% 0); transform: translate(0, 0); }
+  90% { clip-path: inset(8% 0 62% 0); transform: translate(-6px, 0); }
+  93% { clip-path: inset(48% 0 22% 0); transform: translate(5px, 0); }
+  96% { clip-path: inset(72% 0 6% 0); transform: translate(-3px, 0); }
+}
+
+@keyframes gl2 {
+  0%, 86%, 100% { clip-path: inset(0 0 100% 0); transform: translate(0, 0); }
+  89% { clip-path: inset(30% 0 44% 0); transform: translate(7px, 0); }
+  92% { clip-path: inset(66% 0 12% 0); transform: translate(-8px, 0); }
+  97% { clip-path: inset(12% 0 76% 0); transform: translate(4px, 0); }
+}
+
+.title {
+  margin: 0;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: clamp(38px, 6vw, 78px);
+  line-height: 1.04;
+  color: #f4f6f8;
+  letter-spacing: -0.02em;
+  text-shadow:
+    0 0 40px rgba(34, 231, 214, 0.35),
+    0 0 110px rgba(255, 45, 149, 0.2);
+}
+
+.glitchLayer {
+  position: absolute;
+  inset: 0;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: clamp(38px, 6vw, 78px);
+  line-height: 1.04;
+  letter-spacing: -0.02em;
+  mix-blend-mode: screen;
+}
+
+.glitchCyan {
+  color: var(--color-cyan);
+  animation: gl1 5.5s infinite steps(1);
+}
+
+.glitchPink {
+  color: var(--color-pink);
+  animation: gl2 5.5s infinite steps(1);
+}

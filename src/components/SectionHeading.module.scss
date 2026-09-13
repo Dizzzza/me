@@ -1,0 +1,18 @@
+@keyframes hgl {
+  0%, 84%, 100% { text-shadow: none; transform: translate(0, 0); clip-path: none; }
+  85% { text-shadow: -3px 0 var(--color-cyan), 3px 0 var(--color-pink); transform: translate(2px, 0); clip-path: inset(0 0 58% 0); }
+  87% { text-shadow: 3px 0 var(--color-cyan), -3px 0 var(--color-pink); transform: translate(-3px, 0); clip-path: inset(46% 0 12% 0); }
+  89% { text-shadow: -2px 0 var(--color-pink), 2px 0 var(--color-cyan); transform: translate(1px, 0); clip-path: none; }
+  91% { text-shadow: none; transform: translate(0, 0); }
+  94% { text-shadow: 4px 0 var(--color-pink), -4px 0 var(--color-cyan); transform: translate(-2px, 0); clip-path: inset(20% 0 40% 0); }
+  96% { text-shadow: none; transform: translate(0, 0); clip-path: none; }
+}
+
+.heading {
+  margin: 0;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 34px;
+  color: #f4f6f8;
+  animation: hgl 7.5s infinite steps(1);
+}

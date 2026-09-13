@@ -1,0 +1,73 @@
+{
+  "nav": {
+    "brand": "dias",
+    "about": "about",
+    "stack": "stack",
+    "experience": "experience",
+    "contact": "contact"
+  },
+  "hero": {
+    "kicker": "full-stack developer",
+    "headline": "Extensible products for any platform",
+    "lead": "Fault-tolerant, scalable projects built to grow. Architecture that makes it easy to ship new features fast without losing performance or stability.",
+    "ctaPrimary": "Get in touch",
+    "ctaSecondary": "Experience"
+  },
+  "about": {
+    "title": "About",
+    "textTitle": "4 years of experience · 10+ projects · From web apps to evolving systems",
+    "text": [
+      "I've gone from simple landing pages and interfaces to systems where reliability, performance, and every transaction matter. Today I work across the whole product — from architecture and backend to frontend — with a focus on keeping the system stable and predictable as it grows.",
+      "To me, a good project isn't one that simply works today. It's a system that's easy to evolve tomorrow: adding new features, scaling individual parts, and catching problems before users ever run into them.",
+      "That's why I value simple architecture and readable code. A developer should be able to open a project and understand it — not have to decode it."
+    ],
+    "stats": {
+      "years": { "value": "04", "label": "years in development" },
+      "projects": { "value": "10+", "label": "projects from scratch" },
+      "mvp": { "value": "3 wks.", "label": "average MVP timeline" }
+    }
+  },
+  "stack": {
+    "title": "Stack",
+    "groups": {
+      "frontend": { "title": "Frontend", "items": ["React", "Next.js", "TypeScript", "Tailwind", "INTL", "SCSS"] },
+      "backend": { "title": "Backend", "items": ["Node.js", "NestJS", "Express", "GraphQL", "gRPC", "REST"] },
+      "infra": { "title": "Infrastructure", "items": ["Docker", "Kubernetes", "Kafka", "Redis", "PostgreSQL", "MongoDB", "MySQL"] },
+      "web3": { "title": "Web3", "items": ["Ethereum", "TRON", "Smart Contracts"] }
+    }
+  },
+  "experience": {
+    "title": "Experience",
+    "items": [
+      {
+        "period": "2021 — present",
+        "role": "Whole products, from architecture to interface",
+        "text": "Ten-plus projects built from scratch: data schema, services and queues, frontend, shipping to production and support. MVP in three weeks on average."
+      },
+      {
+        "period": "Focus",
+        "role": "Reliability and performance",
+        "text": "Systems where every transaction matters: profiling and speeding up queries, metrics and traces across services, alerts based on real symptoms — catching issues before users do."
+      },
+      {
+        "period": "Principle",
+        "role": "Simple architecture and readable code",
+        "text": "A system that's easy to evolve: add features, scale individual parts. A developer opens the project and understands it, rather than having to decode it."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "intro": "Open to project work and long-term collaboration. I reply within a day.",
+    "links": {
+      "telegram": "Telegram",
+      "github": "GitHub",
+      "linkedin": "LinkedIn",
+      "email": "Email"
+    }
+  },
+  "footer": {
+    "copyright": "© {year} Dias",
+    "status": "system online"
+  }
+}
