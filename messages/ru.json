@@ -25,7 +25,9 @@
       "years": { "value": "04", "label": "года в разработке" },
       "projects": { "value": "10+", "label": "проектов с нуля" },
       "mvp": { "value": "3 нед.", "label": "средний срок MVP" }
-    }
+    },
+    "readMore": "Читать дальше",
+    "readLess": "Свернуть"
   },
   "stack": {
     "title": "Стек",

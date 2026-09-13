@@ -14,15 +14,19 @@ export default function Nav() {
   ];
 
   return (
-    <nav className="sticky top-0 z-[5] flex items-center justify-between gap-4 border-b border-divider bg-bg/65 px-5 py-3 backdrop-blur-md sm:px-10">
-      <span className="font-mono text-[13px] font-bold uppercase tracking-[0.28em] text-cyan">
+    <nav className="fixed inset-x-0 top-0 z-20 flex flex-nowrap items-center justify-between gap-2 overflow-x-auto border-b border-divider bg-bg/65 px-4 py-2.5 backdrop-blur-md sm:gap-4 sm:px-10 sm:py-3">
+      <span className="shrink-0 whitespace-nowrap font-mono text-[10px] font-bold uppercase tracking-[0.16em] text-cyan sm:text-[13px] sm:tracking-[0.28em]">
         {t('brand')}
         <span className="text-pink">.dev</span>
       </span>
-      <div className="flex flex-wrap items-center gap-4">
-        <span className="flex flex-wrap gap-4 font-mono text-[11px] font-bold uppercase tracking-[0.24em]">
+      <div className="flex shrink-0 flex-nowrap items-center gap-2 sm:gap-4">
+        <span className="flex flex-nowrap gap-2 font-mono text-[9px] font-bold uppercase tracking-[0.1em] sm:gap-4 sm:text-[11px] sm:tracking-[0.24em]">
           {links.map((link) => (
-            <a key={link.href} href={link.href} className="!text-[#c3ccd6] hover:!text-cyan">
+            <a
+              key={link.href}
+              href={link.href}
+              className="!text-[#c3ccd6] hover:!text-cyan whitespace-nowrap"
+            >
               {link.label}
             </a>
           ))}

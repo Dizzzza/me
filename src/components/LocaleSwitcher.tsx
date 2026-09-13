@@ -10,9 +10,9 @@ export default function LocaleSwitcher() {
   const router = useRouter();
 
   return (
-    <div className="flex items-center gap-2 font-mono text-[11px] uppercase tracking-[0.2em] text-muted">
+    <div className="flex shrink-0 items-center gap-1 font-mono text-[9px] uppercase tracking-[0.1em] text-muted sm:gap-2 sm:text-[11px] sm:tracking-[0.2em]">
       {routing.locales.map((l, i) => (
-        <span key={l} className="flex items-center gap-2">
+        <span key={l} className="flex items-center gap-1 sm:gap-2">
           {i > 0 && <span className="text-divider">/</span>}
           <button
             type="button"

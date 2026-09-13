@@ -13,6 +13,15 @@ body {
   overflow-x: hidden;
 }
 
+html {
+  scroll-padding-top: 80px;
+  scroll-behavior: smooth;
+}
+
+section[id] {
+  scroll-margin-top: 80px;
+}
+
 a {
   color: var(--color-cyan);
   text-decoration: none;

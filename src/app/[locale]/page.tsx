@@ -16,7 +16,7 @@ export default function HomePage() {
 
       <div className="relative z-[3]">
         <Nav />
-        <main className="mx-auto max-w-[1080px] px-5 pb-8 sm:px-10">
+        <main className="mx-auto max-w-[1080px] px-5 pb-8 pt-[72px] sm:px-10">
           <Hero />
           <About />
           <Stack />

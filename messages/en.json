@@ -25,7 +25,9 @@
       "years": { "value": "04", "label": "years in development" },
       "projects": { "value": "10+", "label": "projects from scratch" },
       "mvp": { "value": "3 wks.", "label": "average MVP timeline" }
-    }
+    },
+    "readMore": "Read more",
+    "readLess": "Collapse"
   },
   "stack": {
     "title": "Stack",
