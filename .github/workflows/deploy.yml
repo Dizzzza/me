@@ -29,10 +29,13 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
 
       - name: Install dependencies
-        run: pnpm install --frozen-lockfile
+        # --ignore-scripts: native postinstall builds (e.g. @parcel/watcher,
+        # only needed for `next dev`) aren't required for a static export
+        # and aren't reliably buildable on the runner.
+        run: pnpm install --frozen-lockfile --ignore-scripts
 
       - name: Build (static export)
         env:
